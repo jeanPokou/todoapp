@@ -7,6 +7,7 @@ import com.tdsm.todoapp.R;
 
 public class TaskActivity extends AppCompatActivity {
 
+    private TasksPresenter mTasksPresenter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,5 +21,6 @@ public class TaskActivity extends AppCompatActivity {
             // Load Fragment into
             getSupportFragmentManager().beginTransaction().add(R.id.contentFrame,tasksFragment).commit();
         }
+
     }
 }
