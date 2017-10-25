@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\guava\guava\18.0\guava-18.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="C:\Users\User1\Pictures\Personal\todoapp\app\build\intermediates\pre-dexed\debug\guava-18.0_23ae9d619c9ad952ac11ce7bff78df802e3e98c2.jar" />
+    </item>
+
+</items>

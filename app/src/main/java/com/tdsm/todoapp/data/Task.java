@@ -5,7 +5,6 @@ import android.support.annotation.Nullable;
 
 import java.util.UUID;
 import com.google.common.base.Objects;
-import com.google.common.base.Strings;
 
 public final class Task {
     @NonNull
@@ -37,20 +36,20 @@ public final class Task {
     }
 
     @NonNull
-    public String getmId() {
+    public String getId() {
         return mId;
     }
 
     @Nullable
-    public String getmTitle(){
+    public String getTitle(){
         return mTitle;
     }
     @Nullable
-    public String getmDescription(){
+    public String getDescription(){
         return mDescription;
     }
 
-    public boolean ismCompleted() {
+    public boolean isCompleted() {
         return mCompleted;
     }
 
